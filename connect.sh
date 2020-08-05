@@ -2,4 +2,4 @@
 ssh -N -L 4194:localhost:4194 turtlebot@ddl46.tech.cornell.edu &
 
 # Create your .ovpn file and determine its path.
-sudo openvpn --config ~/Desktop/zach.ovpn
+sudo openvpn --config path/to/your/file.ovpn
